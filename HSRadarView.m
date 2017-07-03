@@ -67,7 +67,7 @@
     _waveColor = [UIColor blueColor];
     _waveMaxAlpha = 1.0;
     _animationDuration = 6.6;
-    _animationDuration = UIViewAnimationOptionCurveEaseOut;
+    _animationOptions = UIViewAnimationOptionCurveEaseOut;
 }
 
 -(void)setup{
